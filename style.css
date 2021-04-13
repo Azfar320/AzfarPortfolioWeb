@@ -1,0 +1,371 @@
+*{
+	margin-top: 20px;
+	padding: 0px;
+	background:#F0FFFF;
+
+	/*--background:  #97e7da;--*/
+
+}
+
+
+.wrapper{
+	background-image: linear-gradient(#97e7da, #22917e,  #0f3e36); 
+	background: #97e7da;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#title{
+	font-family: "Verdana",sans-serif;
+	background:  #F5FFFA;
+	color: black;
+	width: 800px;
+	height: 80px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
+	animation: titleanim 5s;
+	animation-iteration-count: infinite;
+}
+
+#title h1{
+	padding: 10px;
+}
+
+
+
+@keyframes titleanim{
+	
+	0%{color: #332900;}
+	20%{color: #332900;}
+	40%{color: #B0E0E6;}
+	60%{color: #FF8C00;}
+	80%{color: #FFA07A;}
+	100%{color: #332900;}
+	from{left:0px;}
+	to{left:500px;}
+	
+}
+	
+
+#notice{
+	float: left;
+	width: 1200px;
+	height:95px;
+	margin-top:12px;
+	margin-bottom: 12px;
+	background: #ccffcc;
+	
+	animation: noticeanim 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes noticeanim{
+	
+	0%{background:}
+	0%{background: #ccffcc;}
+	50%{background: #70db70;}
+	100%{background: #ccffcc;}
+}
+	
+
+#notice h3{
+	
+	text-align: center;
+	background: #ccffcc;
+	color: red;
+	animation: noticehanim 5s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes noticehanim{
+	0%{background:}
+	0%{background: #ccffcc;}
+	50%{background: #70db70;}
+	100%{background: #ccffcc;}
+}
+
+		
+#notice p{
+	font-family: "Georgia",Serif;
+	background: #ccffcc;
+    text-align: center;
+	font-size: 115%;
+	padding-bottom: 10px;
+	animation: noticepanim 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes noticepanim{
+	0%{background:}
+	0%{background: #ccffcc;}
+	50%{background: #70db70;}
+	100%{background: #ccffcc;}
+}
+
+
+
+	 
+	
+#details{
+	color: black;
+	background: #FFDAB9;
+	font-family: "Georgia",Serif;
+	float: left;
+	margin-top: 45px;
+	margin-right: 20px;
+	width: 880px;
+	height: 100px;
+	font-size: 128%;
+	text-align: center;
+}
+
+#details p{
+	background: #FFDAB9;
+}
+
+img{
+	background: #DCDCDC;
+	margin-top: 46px;
+	float:right;
+	width: 290px;
+	height: 310px;
+	filter: drop-shadow(-20px 30px 11px gray);
+
+}
+
+
+#bio{
+	float: left;
+	width: 420px;
+	background: #90EE90;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 0px 10px;
+	}
+
+
+#bio ul{
+	background: #90EE90;
+	list-style-type: none;
+	font-weight: normal;
+	font-size: 120%;
+}
+#bio ul li b{
+	background: #90EE90;
+}
+#bio ul li{
+	background: #90EE90;
+}
+
+#bio h2{
+    background: #90EE90;
+}
+#edu{
+	float: right;
+	width: 420px;
+	background: #ffff99;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 0px 10px;
+}
+
+#edu h2{
+	background: #ffff99;
+}
+
+#edu ul li{
+	background: #ffff99;
+}
+#edu ul li h3{
+	background: #ffff99;
+}
+
+
+#edu ul{
+	background: #ffff99;
+	padding: 0px 5px;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+#edu ul li ul{
+	background: #ffff99;
+	font-weight: normal;
+}
+
+#hobbies{
+	background: #D8BFD8;
+	float: left;
+	height: 110px;
+	width: 420px;
+	margin-top: 30px;
+	padding: 10px 0px;
+}
+
+
+#hobbies h2{
+	background: #D8BFD8;
+	padding: 0px 20px;
+}
+
+#hobbies ul li{
+	background: #D8BFD8;
+	margin-top: 5px;
+	list-style-type: none;
+	float: left;
+	padding: 0px 20px;
+}
+
+
+#si{
+	background: #99ffff;
+	float: left;
+	width: 420px;
+	margin-top: 30px;
+	padding: 10px 0px;
+}
+
+#si h2{
+    background: #99ffff;
+	padding: 0px 20px;
+}
+
+#si h3{
+	background: #99ffff;
+	padding: 0px 20px;
+}
+
+#si ul {
+	background: #99ffff;
+}
+
+#si ul li{
+	list-style-type: none;
+	background: #99ffff;
+	padding: 0px 20px;
+}
+
+#icons{
+	width: 420px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 51px;
+	
+}
+
+
+#icons img {
+	
+	width: 420px;
+	height: 300px;
+	padding: 0px;
+	float: left;
+	margin-top: 0px;
+	
+}
+
+
+#myfutureplan{
+	
+	width: 270px;
+	height: 800px;
+	float: right;
+	float: above;
+	margin-left:35px;
+	background: #FFE4B5;
+	margin-top:-480px;
+	padding: 0px;
+}
+
+#myfutureplan h3{
+	text-align: center;
+	background: #F5FFFA;
+}
+
+#myfutureplan p{
+   text-align: center;
+   font-family: "Georgia",Serif;
+   font-size: 120%;
+   background: #FFE4B5;
+   padding: 5px 5px;
+}
+
+#myfutureplan p a{
+	text-decoration: none;
+	background: #FFE4B5;
+}
+
+#sm{
+	margin-top:10px;
+	float: left;
+	width: 1200px;
+	height: 200px;
+	background:#b3ffb3;
+
+}
+
+
+#sm h3{
+	padding-left: 14px;
+	background: #b3ffb3;
+	text-align: left;
+}
+
+#sm h4{
+	
+	text-align: right;
+	background: #b3ffb3;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+
+#sm h5{
+	margin-top: -114px;
+	margin-left: 484px;
+	float: left;
+	font-size: 110%;
+	text-align: right;
+	background: #b3ffb3;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+#sm h5 a{
+	color: #0000cc;
+	text-decoration: none;
+	background: #b3ffb3;
+}
+
+#sm ul{
+	padding-left: 8px;
+	list-style-type: none;
+	background: #b3ffb3;
+	
+}
+
+#sm ul li{
+	font-size: 110%;
+	padding-left: 8px;
+	margin-top: 0px;
+	background: #b3ffb3;
+	padding-top: 5px;
+}
+
+
+#sm ul li a{
+	text-decoration: none;
+	background: #b3ffb3;
+	color: #0000cc;
+}
+
+#empty{
+    float: left;
+    width: 1200px;
+	height: 50px;
+	background: black;
+	margin-top: 10px;
+	background:#F0FFFF;
+}
